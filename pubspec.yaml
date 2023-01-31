@@ -63,8 +63,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-     - assets/imagenet_labels.txt
-     - assets/mobilenet_v1_1.0_224_1_default_1.tflite
+     - assets/plant_labels.txt
+     - assets/lite-model_aiy_vision_classifier_plants_V1_3.tflite
      - assets/dummyImage.JPG
 
 

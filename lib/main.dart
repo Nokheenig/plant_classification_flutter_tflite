@@ -134,8 +134,8 @@ class _MyHomePageState extends State<MyHomePage> {
     Tflite.close();
     String? res;
     res = await Tflite.loadModel(
-      model: "assets/mobilenet_v1_1.0_224_1_default_1.tflite",
-      labels: "assets/imagenet_labels.txt",
+      model: "assets/lite-model_aiy_vision_classifier_plants_V1_3.tflite",
+      labels: "assets/plant_labels.txt",
     );
     print(res);
   }
